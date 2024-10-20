@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resum_ids",
+  "info": {
+    "singularName": "resum-id",
+    "pluralName": "resum-ids",
+    "displayName": "resumId",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "ResumeId": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    }
+  }
+}

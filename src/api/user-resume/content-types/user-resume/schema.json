@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "User Resume ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "ResumeId": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "JobTitle": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Summary": {
+      "type": "text",
+      "maxLength": 2000
+    },
+    "PositionTitle": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "EndDate": {
+      "type": "string"
+    },
+    "WorkSummary": {
+      "type": "string"
+    },
+    "Skills": {
+      "type": "json"
+    },
+    "Experiences": {
+      "type": "json"
+    },
+    "Education": {
+      "type": "json"
+    },
+    "LinkedIn": {
+      "type": "string"
+    }
+  }
+}
